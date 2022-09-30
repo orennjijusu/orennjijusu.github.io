@@ -70,8 +70,8 @@ body{
 
 .box ul li{
     list-style: none; /*标签前面的小点*/
-    width: 10%;
-    padding: 60px;
+    width: 30%;
+    padding: 80px;
     background:white;
     border:1px solid white ;
     border-radius: 5%;
