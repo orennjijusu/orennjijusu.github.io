@@ -12,10 +12,11 @@ body{
 .box{
     display: flex;/*弹性布局*/
     flex-wrap: wrap;
-    align-content: center;/*上下居中*/
+    /*
+    align-content: center;上下居中*/
     width: 100%;
     height: 100vh;
-    background: orange;
+    background: #3278cd;
 }
 
 .top{
@@ -35,8 +36,8 @@ body{
 }
 
 .top img{
-    width: 275px;
-    height: 200px;
+    width: 962.5px;
+    height: 700px;
     border-radius: 0%;/*圆角*/
 }
 
@@ -63,15 +64,17 @@ body{
 .box ul{
     display: flex;
     justify-content: space-around;
-    width: 50%;
-    background: orange;
+    width: 100%;
+    background: #3278cd;
     margin: auto;
 }
 
 .box ul li{
     list-style: none; /*标签前面的小点*/
-    width: 10%;
-    padding: 60px;
+    width: 20%;
+/*按钮宽度*/
+    padding: 120px;
+/*高度*/
     background:white;
     border:1px solid white ;
     border-radius: 5%;
@@ -81,7 +84,7 @@ body{
 .box ul li a{
     display: flex;
     width: 100%;
-    height: 5px;
+    height: 90px;
     align-content: center;
     flex-wrap: wrap;
     text-decoration: none;/*下划线*/
@@ -100,7 +103,7 @@ body{
     display: block;
     width: 100%;
     text-align: center;
-    font-size: 30px;
+    font-size: 90px;
     margin: 20px 0;
     letter-spacing: 5px;
 }
@@ -116,7 +119,7 @@ body{
     font-size: 16px 0;
 }
 
-/*进校*/
+/*出校*/
 .cx_box{
     display: flex;/*弹性布局*/
     flex-wrap: wrap;  
@@ -141,21 +144,42 @@ body{
 
 }
 
-.cx img{
-    width: 370px;
-    height: 358px;
+.renimg img{
+    width: 396px;
+    height: 528px;
     border-radius: 0%;/*圆角*/
+}
+
+.cximg img{
+	width:308px;
+	height:298px;
 }
 
 .cx h1{
     color:black;
-    font-size: 30px;
-    margin: 20px 0;
-    letter-spacing: 5px;
+	font-weight:normal;/*字体加粗取消*/
+    font-size: 90px;
+    margin: 10px 0;
+    letter-spacing: 1px;
 }
 
+.cx br{
+	display:inline;
+   	line-height:10px;
+}
+
+.cx h2{
+	color:black;
+	font-weight:normal;/*字体加粗取消*/
+    font-size: 90px;
+    margin: 1px 0;
+    letter-spacing: 1px;
+    line-height: 105px;
+    
+}
 .cx p{
-    color:black;
+  	font-size:50px;
+	color:black;
 }
 
 
@@ -177,6 +201,7 @@ body{
     width: 90%;
     background: gray;
     margin: auto;
+   
 }
 
 .cx_box ul li{
@@ -189,8 +214,12 @@ body{
 
 
 .time{
-    font-size: 60px;
+    font-size: 80px;
     color: red;
+}
+
+.cx h3{
+	font-weight:normal;
 }
 
 .date{
@@ -225,20 +254,42 @@ body{
 
 }
 
-.jx img{
-    width: 370px;
-    height: 358px;
+.renimg img{
+    width: 396px;
+    height: 528px;
     border-radius: 0%;/*圆角*/
+}
+
+.jximg img{
+    width: 308px;
+    height: 298px;
 }
 
 .jx h1{
     color:black;
-    font-size: 30px;
-    margin: 20px 0;
-    letter-spacing: 5px;
+    font-weight: normal;
+    font-size: 90px;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+
+.jx br{
+    display: inline;
+    line-height: 10px;
+}
+
+.jx h2{
+    color: black;
+    font-weight: normal;
+    font-size: 90px;
+    margin: 1px 0;
+    letter-spacing: 1px;
+    line-height: 105px;
+
 }
 
 .jx p{
+    font-size: 50px;
     color:black;
 }
 
@@ -271,3 +322,9 @@ body{
     background:gray;
 
 }
+
+
+.jx h3{
+	font-weight:normal;
+}
+
