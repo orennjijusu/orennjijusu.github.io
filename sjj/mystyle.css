@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*
+body{
+    font-size: 16px; /*控制整个页面，和下面的只能二选一控制*/
+    /*
+}
+*/
+
+.box{
+    display: flex;/*弹性布局*/
+    flex-wrap: wrap;
+    /*
+    align-content: center;上下居中*/
+    width: 100%;
+    height: 100vh;
+    background: #3278cd;
+}
+
+.top{
+    width: 100%;
+    /*
+    background:blueviolet;
+    */
+    text-align: center;
+    /*
+    color: black; /*控制top下的颜色，同样只能二选一*/
+    
+    /*
+    padding-top: 10%;/*距离顶部距离*/
+
+
+
+}
+
+.top img{
+    width: 962.5px;
+    height: 700px;
+    border-radius: 0%;/*圆角*/
+}
+
+.top h1{
+    color:white;
+    font-size: 30px;
+    margin: 20px 0;
+    letter-spacing: 5px;
+}
+
+.top p{
+    color:white;
+}
+
+.bottom{
+    width: 100%;
+    margin-top: 40px;
+   /*
+    background: red;
+    */
+    
+}
+
+.box ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background: #3278cd;
+    margin: auto;
+}
+
+.box ul li{
+    list-style: none; /*标签前面的小点*/
+    width: 20%;
+/*按钮宽度*/
+    padding: 120px;
+/*高度*/
+    background:white;
+    border:1px solid white ;
+    border-radius: 5%;
+    box-shadow: 2px 3px 5px gray;
+}
+
+.box ul li a{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    align-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;/*下划线*/
+    color:orange;
+    justify-content: center;
+}
+
+/*
+.box ul li img{
+    width: ;
+    height: ;
+}
+*/
+
+.box ul li span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 90px;
+    margin: 20px 0;
+    letter-spacing: 5px;
+}
+
+
+.time h3{
+    color: red;
+    font-size: 16px 0;
+}
+
+.date h4{
+    color: red;
+    font-size: 16px 0;
+}
+
+/*出校*/
+.cx_box{
+    display: flex;/*弹性布局*/
+    flex-wrap: wrap;  
+    justify-content: center;
+
+
+}
+
+.cx{
+    width: 100%;
+    /*
+    background:blueviolet;
+    */
+    text-align: center;
+    /*
+    color: black; /*控制top下的颜色，同样只能二选一*/
+    
+    /*
+    padding-top: 10%;/*距离顶部距离*/
+
+
+
+}
+
+.renimg img{
+    width: 396px;
+    height: 528px;
+    border-radius: 0%;/*圆角*/
+}
+
+.cximg img{
+	width:308px;
+	height:298px;
+}
+
+.cx h1{
+    color:black;
+	font-weight:normal;/*字体加粗取消*/
+    font-size: 90px;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+
+.cx br{
+	display:inline;
+   	line-height:10px;
+}
+
+.cx h2{
+	color:black;
+	font-weight:normal;/*字体加粗取消*/
+    font-size: 90px;
+    margin: 1px 0;
+    letter-spacing: 1px;
+    line-height: 105px;
+    
+}
+.cx p{
+  	font-size:50px;
+	color:black;
+}
+
+
+
+.cx_mune{
+    width: 100%;
+    margin-top: 1px;
+   /*
+    background: red;
+    */
+    
+}
+
+.cx_box ul{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    background: gray;
+    margin: auto;
+   
+}
+
+.cx_box ul li{
+    list-style: none; /*标签前面的小点*/
+    width: 10%;
+    padding: 1px;
+    background:gray;
+
+}
+
+
+.time{
+    font-size: 80px;
+    color: red;
+}
+
+.cx h3{
+	font-weight:normal;
+}
+
+.date{
+    color:red;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+/*进校*/
+.jx_box{
+    display: flex;/*弹性布局*/
+    flex-wrap: wrap;  
+    justify-content: center;
+
+
+}
+
+.jx{
+    width: 100%;
+    /*
+    background:blueviolet;
+    */
+    text-align: center;
+    /*
+    color: black; /*控制top下的颜色，同样只能二选一*/
+    
+    /*
+    padding-top: 10%;/*距离顶部距离*/
+
+
+
+}
+
+.renimg img{
+    width: 396px;
+    height: 528px;
+    border-radius: 0%;/*圆角*/
+}
+
+.jximg img{
+    width: 308px;
+    height: 298px;
+}
+
+.jx h1{
+    color:black;
+    font-weight: normal;
+    font-size: 90px;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+
+.jx br{
+    display: inline;
+    line-height: 10px;
+}
+
+.jx h2{
+    color: black;
+    font-weight: normal;
+    font-size: 90px;
+    margin: 1px 0;
+    letter-spacing: 1px;
+    line-height: 105px;
+
+}
+
+.jx p{
+    font-size: 50px;
+    color:black;
+}
+
+
+
+
+.jx_mune{
+    width: 100%;
+    margin-top: 1px;
+   /*
+    background: red;
+    */
+    
+}
+
+.jx_box ul{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    background: gray;
+    margin: auto;
+}
+
+.jx_box ul li{
+    list-style: none; /*标签前面的小点*/
+    width: 10%;
+    padding: 1px;
+    background:gray;
+
+}
+
+
+.jx h3{
+	font-weight:normal;
+}
+
